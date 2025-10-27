@@ -15,7 +15,7 @@ console.log("Soma total:", total); //mostra o resultado no console
 
 //3
 const pessoa = {
-    nome: "Mariana",
+    nome: "Enzo",
     idade: 17,
     cidade: "Sorocaba"
 };
@@ -46,7 +46,7 @@ resultado = resultado.slice(0, -2); //remove a última vírgula e espaço
 console.log("Nomes concatenados:", resultado);
 
 //6
-const dados = [17, "Mariana", true, {idade: 17 },[1,2,3], null];
+const dados = [17, "Enzo", true, {idade: 17 },[1,2,3], null];
 for (const elemento of dados) {
     console.log(elemento, "-> tipo:", typeof elemento); //mostra o tipo de elemento
 }
@@ -65,7 +65,7 @@ console.log("Novos preços:", produtos);
 
 //8
 const obj = {
-    nome: "Mariana",
+    nome: "Enzo",
     idade: 17,
     cidade: "Sorocaba"
 };
